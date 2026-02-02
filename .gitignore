@@ -1,0 +1,23 @@
+# --- MIT App Inventor & Project Files ---
+# These are internal files you don't need to track
+*.log
+*.tmp
+.cache/
+
+# --- Firebase & Security (IMPORTANT) ---
+# This prevents your private keys from being public
+secrets.json
+credentials.txt
+google-services.json
+firebase_config.txt
+
+# --- System & Junk Files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Build Files ---
+# We want to share the .aia (source), NOT the heavy .apk (installer)
+*.apk
+*.base64
